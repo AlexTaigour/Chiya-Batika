@@ -257,10 +257,7 @@
   .find .btn{margin-top:10px;padding:8px 13px;min-height:34px;font-size:.8rem;}
   .find .photo,.map-frame{width:100%;height:100%;min-height:180px;object-fit:cover;border-radius:8px;}
   .map-frame{border:0;display:block;}
-  .map-card{position:relative;overflow:hidden;background:#e9e5d7;box-shadow:inset 0 0 0 1px rgba(20,54,42,.12);}
-  .map-card svg{display:block;width:100%;height:100%;min-height:inherit;}
-  .map-card .map-area{position:absolute;top:14px;left:15px;color:var(--green);font-size:.68rem;font-weight:700;letter-spacing:1.5px;text-shadow:0 1px 2px rgba(255,255,255,.9);}
-  .map-card .map-link{position:absolute;right:12px;bottom:12px;display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;background:var(--green);color:#fff;font-size:.74rem;font-weight:700;text-decoration:none;box-shadow:0 3px 10px rgba(14,42,32,.24);}
+  .map-frame{background:#e9e5d7;}
   footer{margin-top:28px;padding:18px 20px 14px;}
   footer .fname{font-size:1rem;}
   footer .ftag{font-size:.76rem;margin-top:4px;}
@@ -542,37 +539,7 @@
         </div>
         <a class="btn btn-green" href="https://www.google.com/maps/search/?api=1&amp;query=Chiya+Batika+Ghattekulo+Kathmandu" target="_blank" rel="noopener">Get Directions</a>
       </div>
-      <div class="map-frame map-card" role="group" aria-label="Illustrated map of Ghattekulo, Kathmandu">
-        <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-          <rect width="600" height="300" fill="#e9e5d7"/>
-          <path d="M22 18h132v78H22zM402 20h161v69H402zM40 205h118v74H40zM428 207h133v72H428z" fill="#d9e3ce"/>
-          <path d="M190 16h80v55h-80zM302 27h76v48h-76zM198 216h86v57h-86zM321 218h79v56h-79zM470 116h74v63h-74zM53 119h90v60H53z" fill="#f3efdf"/>
-          <g fill="none" stroke="#cbc4b1" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M-25 177C65 145 116 171 189 143s120-41 190-11 125 46 248 4"/>
-            <path d="M114-28c31 67 34 119 27 177s-3 103 28 178"/>
-            <path d="M360-20c-32 64-35 111-21 166s12 99-17 176"/>
-            <path d="M-18 83c90 27 147 16 214-4s121-16 193 13 126 36 228 6"/>
-          </g>
-          <g fill="none" stroke="#fffdf5" stroke-width="17" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M-25 177C65 145 116 171 189 143s120-41 190-11 125 46 248 4"/>
-            <path d="M114-28c31 67 34 119 27 177s-3 103 28 178"/>
-            <path d="M360-20c-32 64-35 111-21 166s12 99-17 176"/>
-            <path d="M-18 83c90 27 147 16 214-4s121-16 193 13 126 36 228 6"/>
-          </g>
-          <g fill="none" stroke="#d3ccb9" stroke-width="2">
-            <path d="M23 121h75M177 29v35M236 188h66M412 108v48M446 186h75M74 194v63M386 38h45M285 231v42"/>
-            <path d="M171 102l26 20M388 185l25 18M282 83l19 19M146 229l28-20M529 98l20 18"/>
-          </g>
-          <circle cx="301" cy="145" r="26" fill="#14362a" opacity=".14"/>
-          <path d="M301 104c-17 0-30 13-30 30 0 22 30 53 30 53s30-31 30-53c0-17-13-30-30-30z" fill="#b84032"/>
-          <circle cx="301" cy="134" r="10" fill="#fffdf5"/>
-        </svg>
-        <span class="map-area">GHATTEKULO · KATHMANDU</span>
-        <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Chiya+Batika+Ghattekulo+Kathmandu" target="_blank" rel="noopener">
-          Get Directions
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
-        </a>
-      </div>
+      <iframe class="map-frame" title="Interactive OpenStreetMap of Ghattekulo, Kathmandu" src="https://www.openstreetmap.org/export/embed.html?bbox=85.3222%2C27.6973%2C85.3402%2C27.7073&amp;layer=mapnik&amp;marker=27.7023432%2C85.3312243" loading="lazy" referrerpolicy="no-referrer"></iframe>
       <img class="photo" src="cafe.jpg" alt="Inside Chiya Batika cafe">
     </div>
   </div>
